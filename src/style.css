@@ -1,7 +1,7 @@
 /* fonts.css or App.css */
 @font-face {
   font-family: 'Quartzo';
-  src: url('./images/Code7X5Regular-ypBe.ttf') format('opentype'); /* Adjust path as necessary */
+  src: url('https://res.cloudinary.com/dclragtzq/raw/upload/jzuv6mc2pc6ieaxiitqk.ttf') format('opentype'); /* Adjust path as necessary */
   font-weight: normal;
   font-style: normal;
 }
