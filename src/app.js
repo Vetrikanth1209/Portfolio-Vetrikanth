@@ -1,41 +1,14 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import My_pic from "./images/my_image1.png";
-import Vetri from './images/vetri.png';
-import Java from "./images/java.png";
-import Js from "./images/js.png";
-import React_icon from "./images/atom.png";
-import Python from "./images/python.png";
-import Express from "./images/Express.png";
-import AWS from "./images/AWS.png";
-import Mongo from "./images/MongoDB.png";
-import Crewai from "./images/crewai.png";
-import Linkedin from "./images/ln.png";
-import Git from "./images/github.png";
-import Insta from "./images/instagram.png";
-import Cv from './images/cv.png';
 import "./style.css";
 import "./contact.css";
 import { Player } from "@lottiefiles/react-lottie-player";
-import Certi from "./images/premium-badge.png";
-import suit from "./images/suitcase.png";
-import Support from "./images/support.png";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
 import Project from "./project";
-import Aws from "./images/Aws-cert.png";
-import Aws_1 from "./images/aws-1.jpg";
-import Aws_2 from "./images/aws-2.png";
-import Aws_3 from "./images/aws-3.png";
-import CrewAI from "./images/crewai-cert.png";
-import MongoDB from "./images/mongo.jpg";
-import Mern from "./images/mern.jpg";
-import Nptel_1 from "./images/nptel.png";
-import Nptel_2 from "./images/nptel-2.jpg";
-import Java_cert from "./images/java-cert.jpg";
 import emailjs from "emailjs-com";
 
 
@@ -266,7 +239,7 @@ const App = () => {
       >
         <img
           loading="lazy"
-          src={My_pic}
+          src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/wpegmqw3olb74a4p3zbx"
           alt="img"
           style={{
             borderRadius: "50%",
@@ -367,7 +340,7 @@ const App = () => {
         </div>
         <div className="card-container">
           <img
-            src={Vetri}
+            src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/fhbreofsrhbasergszhm"
             alt="img"
             className="profile-image"
             loading="lazy"
@@ -378,7 +351,7 @@ const App = () => {
           >
             <div className="info-item">
               <img
-                src={Certi}
+                src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/mesgamu2ac6i658s58ry"
                 alt="Certificate"
                 className="icon"
                 loading="lazy"
@@ -387,13 +360,13 @@ const App = () => {
               <p>2 Years Working</p> {/* Changed <texts> to <p> */}
             </div>
             <div className="info-item">
-              <img src={suit} alt="Suit" className="icon" loading="lazy" />
+              <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/dvpm63jekpzgurhquhon" alt="Suit" className="icon" loading="lazy" />
               <h5 className="info-title">PROJECTS</h5>
               <p>5+ projects</p> {/* Changed <texts> to <p> */}
             </div>
             <div className="info-item">
               <img
-                src={Support}
+                src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/rnsbbxoapcvsrlmtmclx"
                 alt="Support"
                 className="icon"
                 loading="lazy"
@@ -438,7 +411,7 @@ const App = () => {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={Java}
+                  image="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/ej3i4ps7mgqt4hi2k5os"
                   alt="Hollywood Sign on The Hill"
                   className="card-img"
                 />
@@ -462,7 +435,7 @@ const App = () => {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={Js}
+                  image="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/iyxiqrpxlktnekp3bnbc"
                   alt="Palm Springs Road"
                   className="card-img"
                 />
@@ -486,7 +459,7 @@ const App = () => {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={Express}
+                  image="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/hfbq0ji2eskvt5gjgaj7"
                   alt="Los Angeles Skyscrapers"
                   className="card-img"
                 />
@@ -510,7 +483,7 @@ const App = () => {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={React_icon}
+                  image="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/h2l8mgqsm2tkqs6zfjra"
                   alt="Skyscrapers"
                   className="card-img"
                 />
@@ -539,7 +512,7 @@ const App = () => {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={Python}
+                  image="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/dyo3zrunlctacljmivyw"
                   alt="Hollywood Sign on The Hill"
                   className="card-img"
                 />
@@ -563,7 +536,7 @@ const App = () => {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={AWS}
+                  image="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/jvqik6zccvfokibctozt"
                   alt="Palm Springs Road"
                   className="card-img"
                 />
@@ -587,7 +560,7 @@ const App = () => {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={Mongo}
+                  image="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/evozexbij7pbz9hcnb42"
                   alt="Los Angeles Skyscrapers"
                   className="card-img"
                 />
@@ -611,7 +584,7 @@ const App = () => {
                 <CardMedia
                   component="img"
                   height="160"
-                  image={Crewai}
+                  image="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/ikgbhedp61nitzbf0wah"
                   alt="Skyscrapers"
                   className="card-img"
                 />
@@ -657,16 +630,16 @@ const App = () => {
           Certifications
         </h3>
         <div className="certificate-container">
-          <img src={Mern} className="cert-img-container" loading="lazy"  alt="img"/>
-          <img src={Aws} className="cert-img-container" loading="lazy"  alt="img"/>
-          <img src={Java_cert} className="cert-img-container" loading="lazy"  alt="img"/>
-          <img src={CrewAI} className="cert-img-container" loading="lazy"  alt="img"/>
-          <img src={MongoDB} className="cert-img-container" loading="lazy"  alt="img"/>
-          <img src={Aws_1} className="cert-img-container" loading="lazy"  alt="img"/>
-          <img src={Aws_2} className="cert-img-container" loading="lazy"  alt="img"/>
-          <img src={Aws_3} className="cert-img-container" loading="lazy"  alt="img"/>
-          <img src={Nptel_1} className="cert-img-container" loading="lazy"  alt="img"/>
-          <img src={Nptel_2} className="cert-img-container" loading="lazy"  alt="img"/>
+          <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/kzexwac7csq178jwrmbp" className="cert-img-container" loading="lazy"  alt="img"/>
+          <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/z7rjdsmhz0gidgjnuwq3" className="cert-img-container" loading="lazy"  alt="img"/>
+          <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/opamarlop3meeijcj7gx" className="cert-img-container" loading="lazy"  alt="img"/>
+          <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/k82esocoavxd0v30nwuc" className="cert-img-container" loading="lazy"  alt="img"/>
+          <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/so3esb3wlwpzjnsy1hw5" className="cert-img-container" loading="lazy"  alt="img"/>
+          <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/chc1uxkhztnrkbo2mpob" className="cert-img-container" loading="lazy"  alt="img"/>
+          <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/hpuqq2evcjy509o948p1" className="cert-img-container" loading="lazy"  alt="img"/>
+          <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/atuqkm1bojs90kfkaxac" className="cert-img-container" loading="lazy"  alt="img"/>
+          <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/kdep1onkzw66euuho6bi" className="cert-img-container" loading="lazy"  alt="img"/>
+          <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/urkma7vefgqk0aizt9z5" className="cert-img-container" loading="lazy"  alt="img"/>
         </div>
       </div>
 
@@ -789,7 +762,7 @@ const App = () => {
               className="social-container"
             >
               <img
-                src={Linkedin}
+                src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/w5cha8mxigckdea6drke"
                  alt="img"
                 style={{
                   width: "50px",
@@ -830,7 +803,7 @@ const App = () => {
               className="social-container"
             >
               <img
-                src={Git}
+                src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/tidkvh1qkyvzzg54q61q"
                  alt="img"
                 style={{
                   width: "50px",
@@ -864,7 +837,7 @@ const App = () => {
               className="social-container"
             >
               <img
-                src={Insta}
+                src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/uyk9jj5f09kim43qlerv"
                  alt="img"
                 style={{
                   width: "50px",
@@ -919,7 +892,7 @@ const App = () => {
         <p>© 2024 S44WN. All rights reserved.</p>
         </div>
         <div className="footer-button">
-          <img src={Cv}  alt="img"/>
+          <img src="https://res.cloudinary.com/dclragtzq/image/upload/f_auto,q_auto/xkiypfkbimvvnkrap7bs"  alt="img"/>
           <button onClick={() => window.open('https://drive.google.com/file/d/1kAsdnb_VIaliswH8qB4QRTqDouYC_QQG/view?usp=drive_link', '_blank')}>View Resume</button>
         </div>
         <Player
