@@ -880,7 +880,91 @@ p {
   }
   .rocket{
     margin-left: 10% !important;
-    margin-top: -130% !important;
+    margin-top: -120% !important;
+    width: 40% !important;
+  }
+  
+  .footer-text{
+    margin-left: 15% !important;
+    margin-top: -30% !important;
+    width: 25% !important;
+  }
+  
+  .footer-button >button{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 25px;
+    box-shadow: 5px 5px #333;
+    margin-left: -38%;
+    margin-top: -100% !important;
+  }
+  
+  .footer-button >button:hover{
+    color: #AC4FC6;
+    background-color: #061320;
+    box-shadow: 1px 1px 1px whitesmoke;
+  }
+  
+  .footer-button >img{
+    width: 30vw;
+    height: 20vh;
+    margin-top: -162%;
+    margin-right: 5%;
+  }
+  
+  .footer-button >img:hover{
+    opacity: 0.8;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 320px) {
+  .footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family:Protest Strike;
+   font-size: 1rem;
+   font-weight: bold;
+  }
+  
+  .footer-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family:Protest Strike;
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-top: 65%;
+   padding: 1%;
+  }
+  
+  .footer-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family:Protest Strike;
+   font-size: 1.5rem;
+   font-weight: bold;
+  }
+  
+  .footer-button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   font-family:Protest Strike;
+   font-size: 1rem;
+   font-weight: bold;
+   margin-right: 8%;
+   margin-top: -1%;
+  }
+  .rocket{
+    margin-left: 10% !important;
+    margin-top: -120% !important;
     width: 40% !important;
   }
   
@@ -916,3 +1000,4 @@ p {
     opacity: 0.8;
   }
 }
+

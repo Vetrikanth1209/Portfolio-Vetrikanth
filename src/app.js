@@ -880,7 +880,8 @@ const App = () => {
         </section>
       </main>
       <div
-        style={{ backgroundColor: "#8B60C1", width: "100vw", height: "50vh" }}
+        style={{ backgroundColor: "#8B60C1", width: "100vw", height: "55vh" }}
+        className="final-footer"
       >
          <div className="footer-name">
         <p>VETRIKANTH</p>
